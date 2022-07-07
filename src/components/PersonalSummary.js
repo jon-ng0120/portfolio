@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import { HashLink } from 'react-router-hash-link';
 
 const ParentDiv = styled.div`
+  position: relative;
   margin-bottom: 15rem;
   /* width: 100vw; */
   height: 100vh;
@@ -54,7 +56,7 @@ const Arrow = styled.div`
   bottom: 7rem;
   border-style: solid;
   border-color: white;
-  border-width: 0 0.2rem 0.2rem 0;
+  border-width: 0 0.4rem 0.4rem 0;
   transform: rotate(45deg);
   width: 1.5rem;
   height: 1.5rem;
@@ -84,7 +86,9 @@ const PersonalSummary = () => {
         I specialize in understanding business needs and finding solutions
         through technology
       </Summary>
-      <Arrow />
+      <HashLink smooth to="/#about-me">
+        <Arrow />
+      </HashLink>
     </ParentDiv>
   );
 };

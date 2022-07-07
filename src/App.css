@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-body {
-  background: #fff;
-  color: #eefbfb;
+::selection {
+  background: #e55b1a;
 }
