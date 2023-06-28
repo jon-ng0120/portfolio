@@ -4,6 +4,8 @@ import AboutMe from './components/AboutMe';
 import Header from './components/Header';
 import PersonalSummary from './components/PersonalSummary';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Main>
         <PersonalSummary />
         <AboutMe />
+        <Skills />
+        <Projects />
       </Main>
     </div>
   );

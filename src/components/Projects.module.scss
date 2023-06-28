@@ -1,0 +1,21 @@
+.projectsContainer {
+  width: 90%;
+  margin: auto;
+
+  @media (min-width: 1200px) {
+    max-width: 100rem;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+  }
+
+  h1 {
+    margin-bottom: 3rem;
+    text-decoration: underline;
+    text-decoration-color: #e55b1a;
+    color: #203647;
+  }
+}

@@ -1,0 +1,27 @@
+.skills {
+  h1 {
+    margin-bottom: 3rem;
+    text-decoration: underline;
+    text-decoration-color: #e55b1a;
+    color: #203647;
+  }
+
+  width: 90%;
+  margin: auto;
+  @media (min-width: 1200px) {
+    max-width: 100rem;
+  }
+
+  .skillsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    width: 90%;
+    margin: auto;
+    img {
+      max-width: 14rem;
+      height: 5rem;
+    }
+  }
+}
