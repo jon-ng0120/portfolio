@@ -1,9 +1,9 @@
 .skills {
-  h1 {
-    margin-bottom: 3rem;
-    text-decoration: underline;
-    text-decoration-color: #e55b1a;
-    color: #203647;
+  color: #203647;
+  .header {
+    border-bottom: 4px solid #e55b1a;
+    display: inline-block;
+    margin-bottom: 5rem;
   }
 
   width: 90%;

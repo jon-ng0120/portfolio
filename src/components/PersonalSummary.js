@@ -5,10 +5,10 @@ import { HashLink } from 'react-router-hash-link';
 const PersonalSummary = () => {
   return (
     <div className={classes.personalSummary}>
-      <h2 className={classes.name}>
+      <h1 className={classes.name}>
         <span className={classes.accent}>Jon</span>athan Ng
-      </h2>
-      <h3 className={classes.title}>Web Developer</h3>
+      </h1>
+      <h2 className={classes.title}>Web Developer</h2>
       <p className={classes.summary}>
         I specialize in understanding business needs and finding solutions
         through technology

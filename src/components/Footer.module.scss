@@ -1,0 +1,15 @@
+footer {
+  text-align: center;
+  background-color: #12232e;
+  padding: 3rem;
+
+  a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    padding: 2rem;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

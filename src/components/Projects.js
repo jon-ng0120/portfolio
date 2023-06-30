@@ -52,9 +52,12 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className={classes.projects}>
+    <div className={classes.projects} id="projects">
       <div className={classes.projectsContainer}>
-        <h1>03. Featured Projects</h1>
+        <div className={classes.header}>
+          <h1>Projects</h1>
+        </div>
+
         <div className={classes.projects}>
           {projects.map((project, index) => {
             return (

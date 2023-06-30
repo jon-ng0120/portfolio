@@ -14,7 +14,10 @@ import gitIcon from '../assets/git.png';
 const Skills = () => {
   return (
     <div className={classes.skills}>
-      <h1>02. Skills</h1>
+      <div className={classes.header}>
+        <h1>Skills</h1>
+      </div>
+
       <div className={classes.skillsContainer}>
         <img src={htmlIcon} alt="HTML5" />
         <img src={cssIcon} alt="CSS3" />

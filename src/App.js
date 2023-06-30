@@ -6,6 +6,8 @@ import PersonalSummary from './components/PersonalSummary';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         <AboutMe />
         <Skills />
         <Projects />
+        <Contact />
       </Main>
+      <Footer />
     </div>
   );
 }
