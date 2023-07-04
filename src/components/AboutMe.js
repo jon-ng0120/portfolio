@@ -15,8 +15,7 @@ const AboutMe = () => {
             Hi, I'm Jonathan, or just Jon for short. I'm a web developer based
             in Vancouver, Canada. My background is in business and systems
             analysis, and product management, but I've always been actively
-            interested and engaged in the software development side of things as
-            well.
+            interested and engaged in the software development.
           </p>
           <p>
             As an analyst and product manager, I was never satisfied with only
@@ -35,7 +34,9 @@ const AboutMe = () => {
             value.
           </p>
         </div>
-        <img className={classes.headshot} src={headshot} />
+        <div className={classes.headshotContainer}>
+          <img className={classes.headshot} src={headshot} />
+        </div>
       </div>
     </div>
   );

@@ -1,15 +1,14 @@
 .personalSummary {
   position: relative;
   margin-bottom: 15rem;
-  //   width: 100vw;
   height: 100vh;
   background: #12232e;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //   line-height: 2;
-  //   text-align: center;
+  line-height: 1.5;
+  text-align: center;
 
   &:after {
     position: absolute;
@@ -28,6 +27,9 @@
   font-weight: 800;
   font-size: 9rem;
   color: rgba(255, 255, 255, 0.85);
+  @media (max-width: 768px) {
+    font-size: 5rem;
+  }
 }
 
 .accent {
@@ -40,11 +42,17 @@
   color: #e55b1a;
   font-size: 2.5rem;
   margin: 1rem 0;
+  @media (max-width: 768px) {
+    font-size: 2.3rem;
+  }
 }
 
 .summary {
   font-size: 1.8rem;
   color: rgba(255, 255, 255, 0.7);
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
+  }
 }
 
 .arrow {

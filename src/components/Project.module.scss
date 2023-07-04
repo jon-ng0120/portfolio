@@ -1,8 +1,8 @@
 .project {
-  display: grid;
-  align-items: center;
+  // display: grid;
+  // align-items: center;
   line-height: 1.5;
-  gap: 4rem;
+  // gap: 4rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   padding: 3rem 4rem;
   border-radius: 5px;
@@ -10,16 +10,20 @@
   h2 {
     color: #203647;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
+}
 
-  .description {
-    color: #4b4b4b;
-  }
+.projectDetails {
+  display: grid;
+  gap: 4rem;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1080px) {
     display: flex;
     flex-direction: column;
+  }
+  .description {
+    color: #4b4b4b;
   }
 }
 
@@ -54,11 +58,13 @@
 
 .evenRow {
   grid-template-columns: 1fr 2fr;
+  .imageContainer {
+    order: 1;
+    @media (max-width: 1080px) {
+      order: 0;
+    }
+  }
 }
 .oddRow {
   grid-template-columns: 2fr 1fr;
-
-  .projectDetails {
-    order: 1;
-  }
 }
