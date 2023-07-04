@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4fc75a85.css",
+    "main.js": "/portfolio/static/js/main.7ad2c6a2.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/headshot.jpg": "/portfolio/static/media/headshot.586593769e91778c7029.jpg",
+    "static/media/aquagreen-01.png": "/portfolio/static/media/aquagreen-01.0adc518ef877dc68ac0a.png",
+    "static/media/express.png": "/portfolio/static/media/express.915b89629a5fefdb6ca0.png",
+    "static/media/HomeOS-01.png": "/portfolio/static/media/HomeOS-01.ea04411a7ba23fb29695.png",
+    "static/media/chattr-01.png": "/portfolio/static/media/chattr-01.096184cb8525b0c55131.png",
+    "static/media/react.png": "/portfolio/static/media/react.428839d4924b447d4d50.png",
+    "static/media/sass.png": "/portfolio/static/media/sass.eae2b96dc5f29556b225.png",
+    "static/media/firebase.png": "/portfolio/static/media/firebase.22ade27d533c69e7204a.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.62f6b1e4375f36d6eb26.png",
+    "static/media/nodejs.png": "/portfolio/static/media/nodejs.111f27826443c0139aaf.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.bccdeb65e6a4ee154ffe.png",
+    "static/media/html5.png": "/portfolio/static/media/html5.eebc3fbfbde4b2abd9db.png",
+    "static/media/css3.png": "/portfolio/static/media/css3.630b9366bac9035f5b50.png",
+    "index.html": "/portfolio/index.html",
+    "main.4fc75a85.css.map": "/portfolio/static/css/main.4fc75a85.css.map",
+    "main.7ad2c6a2.js.map": "/portfolio/static/js/main.7ad2c6a2.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fc75a85.css",
+    "static/js/main.7ad2c6a2.js"
+  ]
+}
