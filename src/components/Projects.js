@@ -22,7 +22,7 @@ const projects = [
     ],
     liveDemoLink: 'https://jon-ng0120.github.io/startpage/',
     gitHubLink: 'https://github.com/jon-ng0120/startpage',
-    demoVideoLink: 'https://www.youtube.com/watch?v=N5rTqg1EPRs',
+    demoVideoLink: 'https://www.youtube.com/watch?v=lBFZ0l-viX8',
   },
   {
     title: 'Chattr',
@@ -37,7 +37,7 @@ const projects = [
     ],
     liveDemoLink: 'https://chattr-7f98c.web.app/',
     gitHubLink: 'https://github.com/jon-ng0120/chattr',
-    demoVideoLink: 'https://www.youtube.com/watch?v=N5rTqg1EPRs',
+    demoVideoLink: 'https://www.youtube.com/watch?v=RckmborM84U',
   },
   {
     title: 'AquaGreen',
@@ -46,7 +46,7 @@ const projects = [
     tags: ['React', 'CSS', 'Styled Components', 'React Router', 'React Hooks'],
     liveDemoLink: 'https://jon-ng0120.github.io/aquagreen/',
     gitHubLink: 'https://github.com/jon-ng0120/aquagreen',
-    demoVideoLink: 'https://www.youtube.com/watch?v=N5rTqg1EPRs',
+    demoVideoLink: 'https://www.youtube.com/watch?v=A012X0flcmk',
   },
 ];
 
