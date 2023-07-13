@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import classes from './Header.module.scss';
 import { HashLink } from 'react-router-hash-link';
+import logo from '../assets/logo.png';
 
 const Header = () => {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -38,6 +39,7 @@ const Header = () => {
         showNavbar ? classes.active : classes.hidden
       }`}
     >
+      <img src={logo} />
       <nav>
         <HashLink smooth to="/#about-me">
           About

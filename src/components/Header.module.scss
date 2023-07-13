@@ -3,12 +3,16 @@
   z-index: 2;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   background: #12232e;
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: 0.5s;
   padding: 1rem;
+
+  img {
+    width: 8rem;
+  }
 
   nav {
     display: flex;
