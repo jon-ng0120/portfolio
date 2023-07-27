@@ -20,8 +20,8 @@ const projects = [
       'OAuth 2.0',
       'API',
     ],
-    liveDemoLink: 'https://jon-ng0120.github.io/startpage/',
-    gitHubLink: 'https://github.com/jon-ng0120/startpage',
+    liveDemoLink: 'https://jon-ng0120.github.io/HomeOS/',
+    gitHubLink: 'https://github.com/jon-ng0120/HomeOS',
     demoVideoLink: 'https://www.youtube.com/watch?v=lBFZ0l-viX8',
   },
   {
